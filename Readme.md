@@ -9,12 +9,9 @@ Features:
 * WS-Security (currently only UsernameToken and PasswordText encoding is supported)
 
 ## Install
-
-Install with [npm](http://github.com/isaacs/npm):
-
-```
-  npm install soap
-```
+You must have Python version 2.XX. Will not work with version 3!
+pyhton command should be in your path (Note Windows users...).
+right now you must use this git repo. sorry.
 ## Module
 
 ### soap.createClient(url, callback) - create a new SOAP client from a WSDL url. Also supports a local filesystem path.
